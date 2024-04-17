@@ -33,7 +33,7 @@ import {ref} from 'vue'
   </div>  
 
 
-  <footer class="bg-dark text light">
+  <footer class="bg-dark text-light">
     <div>
       Unimar | ADS | {{ new Date().getFullYear()}}
     </div>
@@ -48,7 +48,7 @@ footer{
   width:100%;
   display: flex;
   align-items: center;
-  justify-cointent: center;
+  justify-content: center;
   height: 40px;
 }
 
