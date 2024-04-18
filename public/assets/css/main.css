@@ -1,0 +1,116 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+html {
+    background-color: burlywood;
+    color: black;
+}
+
+.icones * {
+    margin: 0
+}
+
+.ativo {
+    display: inline-block;
+    background-color: burlywood;
+    padding: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border-radius: 15px;
+}
+
+.navbar a.icones {
+    color: black;
+}
+
+.navbar a.icones:hover:not(.ativo) {
+    color: gray;
+}
+
+.info {
+    /* gap: 15px; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding: 0px;
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: brown;
+}
+
+.navbar .icones {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.icones h2 {
+    margin: 0 !important;
+    display: block;
+    width: 100%;
+}
+
+a.icones {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones:hover:not(.ativo) {
+    background-color: #ffffff;
+}
+
+.icones strong {
+    display: block;
+    width: 100%;
+}
+
+#app {
+    background-color: burlywood;
+}
+
+.container form .form-control,
+.form-select,
+.form-select:focus {
+    background-color: #FDEAAB;
+    border: none !important;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none !important;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    padding-top: 5px;
+}
+
+.fundo-canhoto {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
